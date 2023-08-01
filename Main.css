@@ -1,0 +1,151 @@
+body{
+    height:1080px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+    /*background: url(images/Restaurant_kitchen.jpg);*/
+}
+*{
+    padding:0;
+    margin:0;
+}
+
+/*=====================================================================================
+Container Area
+=====================================================================================*/
+    .whole-container{
+        max-width:100%;
+    }
+    .content-container{
+        max-width:1648px;
+        margin-left:auto;
+        margin-right:auto;
+        color:#797979;
+        display:grid;
+        grid-template-rows: 63px 1017px;
+    }
+/*=====================================================================================
+Header Area
+=====================================================================================*/
+.header{
+    grid-row:1/2;
+    border-bottom:1px solid#720000;
+    display:grid;
+    grid-template-columns: repeat(2, 824px);
+    position:relative;
+}
+/*.header:after{
+    content:"";
+    height:1px;
+    background-color:#797979;
+    width:100%;
+}*/
+.logosection{
+    grid-column:1/2;
+}
+    .logo{
+            font-size:26px;
+            font-weight:bold;
+            color:#426325;
+            position:absolute;
+            top:15px;
+            bottom:15px;
+        }
+.header-nav-section {
+    grid-column:2/3;
+    position:absolute;
+    top:21px;
+    bottom:17px;
+} 
+.header-nav-section  ul{
+        list-style: none;
+        position:relative;
+        right:0;
+        margin-left:auto;
+        text-align: right;
+        /*Instruction- Align the header navigation to the right*/
+    }
+    .header-nav-section  ul li{
+        display:inline-block;
+        margin-left:10px;
+    }
+    .header-nav-section  ul li a{
+        display:block;
+        font-size:22px;
+        text-decoration: none;
+        color:#720000;
+    }
+    .header-nav-section  ul li a:hover, .header-nav-section  ul li a:focus{
+        text-decoration:underline 2px dotted #426325;
+        margin-bottom:2px;
+    }
+/*=====================================================================================
+Hero Area
+=====================================================================================*/
+.hero-section{
+    grid-row:2/3;
+    display:grid;
+    grid-template-columns: repeat(2, 824px);
+    position:relative;
+    
+}
+.hero-description{
+    grid-column:1/2;
+    color:#42251d;
+    position:absolute;
+    left:143px;
+    top:264px;
+    max-width:544px;
+    max-height:400px;
+}
+.hero-text{
+    max-height:325px;
+    margin-bottom:48px;
+}
+    .hero-text h1{
+        margin-bottom:32px;
+        font-size:40px;
+    }
+    span.logo{
+        font-size:inherit;
+        position:initial;
+    }
+    .hero text p{
+        font-size:60px;
+    }
+.hero-button{
+    display:flex;
+    flex-flow: row wrap;
+    column-gap: 32px;
+}
+.hero-button button{
+    width:255px;
+    height:64px;
+    font-size:22px;
+    font-weight:500;
+    color:#720000;
+    background-color:#fff;
+    border:1px solid #426325;
+}
+.hero-button button:first-of-type{
+    background-color: #dde4ec;
+}
+.hero-button button:hover, .hero-button button:focus{
+    color:#fff;
+    background-color:#A9B499;
+    border:1px solid #426325;
+}
+.hero-image{
+    grid-column:2/3;
+    position:absolute;
+    right:121px;
+    top:184px;
+}
+.hero-image img{
+    width:696px;
+    height:584px;
+}
+.accent{
+    text-decoration: underline;
+    text-decoration-color: #720000;
+}
