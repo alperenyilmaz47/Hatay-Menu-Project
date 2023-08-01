@@ -1,4 +1,4 @@
-html{background-color: darkgreen;}
+html{background-color: darkcyan;}
 body{
     background-color:burlywood;
     height:100px;   
@@ -31,7 +31,7 @@ Header Area
 }
 
     .logo{
-            font-size:29px;
+            font-size:40px;
             font-weight:bold;
             color:#426325;
             position:absolute;
@@ -59,7 +59,7 @@ Header Area
     }
     .header-nav-section  ul li a{
         display:block;
-        font-size:22px;
+        font-size:30px;
         text-decoration: none;
         color:#720000;
     }
