@@ -1,13 +1,18 @@
+html{background-color:rgba(238,171,101,255)}
+
+
 body{
     height:1080px;   
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     background-color: #fff;
+    text-decoration: none;
     /*background: url(images/Restaurant_kitchen.jpg);*/
 }
 *{
     padding:0;
     margin:0;
+    text-decoration: none;
 }
 
 
@@ -18,7 +23,7 @@ body{
         max-width:1648px;
         margin-left:auto;
         margin-right:auto;
-        color:#797979;
+        color:#000000;
         display:grid;
         grid-template-rows: 63px 1017px;
     }
@@ -26,7 +31,7 @@ body{
         max-width:1648px;
         margin-left:auto;
         margin-right:auto;
-        color:#797979;
+        color:#0c0909;
         display:grid;
         grid-template-rows: 63px 63px;
     }
@@ -34,7 +39,7 @@ body{
 Header Area
 =====================================================================================*/
 .header{
-    grid: row 1px;;
+    grid: row 20px;;
     border-bottom:5px solid#720000;
     display:grid;
     grid-template-columns: repeat(2, 700px);
@@ -48,6 +53,9 @@ Header Area
 }*/
 .logosection{
     grid-column:1/3;
+    text-decoration: none;
+
+
 }
     .logo{
             font-size:29px;
@@ -56,13 +64,18 @@ Header Area
             position:absolute;
             top:15px;
             bottom:55px;
+            text-decoration: none;
+            text-decoration-color: #426325;
+
             
         }
 .header-nav-section {
     grid-column:2/3;
-    position:absolute;
+    position:relative;
     top:21px;
     bottom:17px;
+    left: 200px;
+    text-decoration: none;
 } 
 .header-nav-section  ul{
         list-style: none;
@@ -70,6 +83,7 @@ Header Area
         right:0;
         margin-left:auto;
         text-align: right;
+        text-decoration: none;
         /*Instruction- Align the header navigation to the right*/
     }
     .header-nav-section  ul li{
@@ -173,7 +187,7 @@ th,td,tr {
   }
 
   #hatayimage {
-    width: 100%
+    width: 100%;
     height: 100%;
   }
 

@@ -1,4 +1,4 @@
-html{background-color: darkcyan;}
+html{background-color:rgba(238,171,101,255)}
 body{
     background-color:burlywood;
     height:100px;   
@@ -10,6 +10,8 @@ body{
 *{
     padding:0;
     margin:0;
+    text-decoration: none;
+
 }
     .content-container2{
         max-width:1648px;
@@ -17,7 +19,7 @@ body{
         margin-right:auto;
         color:#797979;
         display:grid;
-        grid-template-rows: 63px 63px;
+        grid-template-rows: 63px 101px;
     }
 /*=====================================================================================
 Header Area
@@ -31,7 +33,7 @@ Header Area
 }
 
     .logo{
-            font-size:40px;
+            font-size:30px;
             font-weight:bold;
             color:#426325;
             position:absolute;
@@ -41,9 +43,10 @@ Header Area
         }
 .header-nav-section {
     grid-column:2/3;
-    position:absolute;
+    position:relative;
     top:21px;
     bottom:17px;
+    left:200px;
 } 
 .header-nav-section  ul{
         list-style: none;
@@ -59,7 +62,7 @@ Header Area
     }
     .header-nav-section  ul li a{
         display:block;
-        font-size:30px;
+        font-size:22px;
         text-decoration: none;
         color:#720000;
     }
@@ -91,7 +94,8 @@ th,td,tr {
       font-size: 30px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-weight: bold; 
-  }
+        background-color: white;
+    }
 
   #hatayimage {
     border-radius: 50px;
